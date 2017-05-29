@@ -1,0 +1,299 @@
+html {
+	height: 100%;
+}
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 0;
+    color: white;
+    background-color: #4d4d4d;
+    margin: 0;
+    height: 90%;
+    
+    
+
+}
+
+header {
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: -15px;
+    background-image: linear-gradient(to top, #272727 , #3b3b3b);
+    box-shadow: 0 0 2px 0 black;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
+   
+    color: white;
+    text-align: right;
+    
+    background-image: linear-gradient(to top, #272727 , #3b3b3b);
+    box-shadow: 0 0 2px 0 black;
+    
+    padding: 10px 0 10px 0;
+}
+.copyright {
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
+.copyright a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+.contacts .item {
+    position: relative;
+    padding-left: 10px;
+}
+
+/* СОЦИАЛЬНЫЕ-ИКОНКИ НА DIV-АХ
+footer .icon {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    width: 16px;
+    height: 16px;
+    background: url("/img/social_icons/social_icons.png") no-repeat 0 0;
+}
+
+footer .icon-fb {
+    
+    background-position: 0 0;
+}
+
+footer .icon-google {
+    left: 55px;
+    background-position: -16px 0;
+}
+
+footer .icon-instagram {
+    left: 80px;
+    background-position: -32px 0;
+}
+footer .icon-twitter {
+    left: 105px;
+    background-position: -48px 0;
+}
+footer .icon-vk {
+    left: 125px;
+    background-position: -64px 0;
+}
+*/
+
+/******************************************/
+/*НАЧАЛО СОЦИАЛЬНЫЕ ИКОНКИ СПИСКОМ НА <li>*/
+.social-menu {
+    position: absolute;
+    top: -8px;
+    left: 30px;
+    list-style: none;
+}
+.social-menu li {
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+}
+.social-menu a {
+    color: white;
+    text-decoration: none;   
+}
+.social-menu li:hover {
+    opacity: 0.5; 
+}
+
+/* КОНЕЦ СОЦИАЛЬНЫЕ ИКОНКИ СПИСКОМ НА <li>*/
+/******************************************/
+
+
+.main-menu {
+    list-style: none;
+    border-bottom: 1px solid black;
+    
+}
+.main-menu li {
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 15px 10px 10px 10px;
+    
+   
+}
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px 10px 10px;
+    
+    
+}
+.main-menu li:hover {
+    background-color: #494949;
+    transition: all .3s ease;   
+}
+
+/*COMMON*/
+
+.line {
+    height: 1px;
+    border-top: 1px solid #1d1d1d;
+    border-bottom: 1px solid #2d2d2d;
+ 
+    /*margin-bottom: 30px;*/
+}
+
+/*CONTACT*/
+
+.contacts {
+    width: 550px;
+    margin: 0 auto;
+    margin-top :0px;
+    background-color: #313131;
+    padding: 20px 30px 30px 30px;
+}
+
+.contacts .title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.contacts .item {
+    position: relative;
+  
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.contacts .icon {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: url("contacts.png") no-repeat 0 0;
+}
+
+.contacts .icon-location {
+    background-position: -30px 0;
+}
+
+.contacts .icon-phone {
+    background-position: -60px 0;
+}
+
+.contacts .icon-email {
+    background-position: 0 0;
+}
+
+.contacts a {
+    color: #e2534b;
+}
+
+
+
+/**********/
+/*SERVICES*/
+.services {
+    width: 650px;
+    margin: 0 auto;
+    margin-top :0px;
+    background-color: #313131;
+    padding: 20px 30px 30px 30px;
+}
+
+.services .title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.services h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.services a{
+    color: #e2534b;
+}
+
+
+/********************/
+/*НАЧАЛО INDEX PHOTO*/
+.index-photo {
+    position: relative;
+    text-align: center;
+   
+     
+}
+.index-photo img {
+    box-shadow: 3px 3px 10px 3px #272727;
+}
+
+
+
+.index-about{
+   
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    padding: 0px 10px 10px 10px; 
+    width: 300px;
+    
+    background-color: rgba(49,49,49, 0.5);
+    box-shadow: 1px 1px 5px 1px #313131;
+    
+}
+/*КОНЕЦ INDEX PHOTO*/
+/*******************/
+
+
+
+/********************/
+/* НАЧАЛО GALLERIES */
+.galleries {
+    display: block;
+    text-align: center;    
+    
+}
+.galleries-menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+        
+    width: 300px;
+    height: 270px;
+    background-color: #313131;
+    
+    box-shadow: 1px 1px 5px 1px #313131;
+}
+
+.galleries-menu li .item {
+    position: relative;
+    margin-top: 20px;
+}
+
+.galleries-menu a:hover {
+    opacity: 0.6;
+    transition: all .3s ease; 
+}
+
+
+
+
+
+/** КОНЕЦ GALLERIES */
+/********************/
+
